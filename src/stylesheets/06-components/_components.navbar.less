@@ -1,0 +1,37 @@
+#c-navbar {
+  height: (@base-unit-vh * 20);
+  width:10vw;
+  flex-wrap: nowrap;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  background-color: @beige;
+  border-right: @border;
+  .column-flexbox();
+}
+
+
+.c-nav__item {
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: @base-unit-vh;
+  .column-flexbox();
+}
+
+@media only screen and (max-width: 600px) {
+  #c-navbar {
+    height: 10vh;
+    padding: (@base-unit-px) 0;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    flex-direction: row;
+    justify-content: space-around;
+    border-right: inherit;
+    z-index: 20;
+    border-top: @border;
+  }
+
+
+}

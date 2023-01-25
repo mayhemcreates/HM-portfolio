@@ -1,0 +1,28 @@
+// Style rules for elements responsible for layout or structuring.
+
+.o-section {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  block-size: 100%;
+  height: (@base-unit-vh * 20);
+  margin-left: (@base-unit-vw * 3);
+  padding-top: 105px;
+}
+
+.o-section__header {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  block-size: 100%;
+  display: block;
+  height: (@base-unit-vh * 25);
+}
+
+
+@media only screen and (max-width:1024px) {
+
+  .o-section {
+    margin-left: (@base-unit-vw * 2);
+    padding-top: (@base-unit-vh);
+  }
+
+}

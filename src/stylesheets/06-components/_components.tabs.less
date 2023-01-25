@@ -1,0 +1,139 @@
+// styling the work tabs section
+
+.c-tabs {
+  display: flex;
+  margin-top: (@base-unit-vh * 2);
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.c-tabs__column1 {
+  width: (@base-unit-vw * 4);
+  padding-right: (@base-unit-px * 2);
+}
+.c-tabs__column2 {
+  width: (@base-unit-vw * 6);
+  padding: 0 (@base-unit-px * 3);
+  color: @brown;
+
+  & p {
+    color: @brown;
+  }
+
+}
+
+.c-tabs__column3 {
+  width: (@base-unit-vw * 6);
+  padding: 0(@base-unit-px * 6);
+
+}
+
+.c-tabs img {
+  position: relative;
+  width: 100%;
+  height: (@base-unit-px * 40);
+  // -webkit-filter: grayscale(100%);
+  // filter: grayscale(100%);
+  object-fit: cover;
+  object-position: top;
+}
+
+
+
+// .c-tabs__overlay--red {
+//   position: absolute;
+//   top: 0;
+//   mix-blend-mode: hard-light;
+//   opacity: 0.7;
+//   width: 100%;
+//   height: (@base-unit-px * 30);
+//   background-color: @red;
+// }
+
+.c-tabs__button {
+  cursor: pointer;
+  width: 100%;
+  display: block;
+  background-color: @beige;
+  border-left: @border;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  text-align: left;
+  padding: (@base-unit-px * 3)  (@base-unit-px * 1);
+  // margin:(@base-unit-px * 4) 0;
+  text-align: top;
+
+  & h3 {
+    color: grey;
+  }
+
+  &:disabled {
+    border-left: 6px solid @red;
+    color: @brown;
+    transition-duration: 200ms;
+    transition-timing-function: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+
+
+  &:disabled h3 {
+    color: @brown;
+  }
+
+  }
+}
+
+.c-tabs__column1--mobile, .c-tabs__column2--mobile,
+.c-tabs__column3--mobile {
+  display: none;
+}
+
+
+@media only screen and (max-width:1024px) {
+
+  .c-tabs {
+    display: flex;
+    margin-top: 0;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+
+  .c-tabs__column1 {
+    display: none;
+  }
+
+  .c-tabs__column2 {
+    display: none;
+  }
+
+  .c-tabs__column3 {
+  display: none;
+}
+
+  .c-tabs__column1--mobile {
+    display: flex;
+    width: (@base-unit-vw * 16);
+  }
+
+  .c-tabs__column2--mobile {
+    display: flex;
+  }
+
+.c-tabs__column3--mobile {
+  display: flex;
+}
+
+  .c-tabs__button {
+    padding: 0 (@base-unit-px * 2) 0 (@base-unit-px * 2);
+  }
+
+  .c-tabs img {
+    width: (@base-unit-vw * 16);
+    height: (@base-unit-vh * 5);
+    object-fit: cover;
+    object-position: top;
+    margin-top: @base-unit-vh;
+  }
+
+
+}

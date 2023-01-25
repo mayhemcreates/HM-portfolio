@@ -1,0 +1,30 @@
+// Style rules for elements responsible for layout or structuring.
+
+.o-container {
+  width: 75%;
+}
+
+.o-container__text {
+  width: (@base-unit-vw * 10);
+}
+
+.o-container--full-width {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  height: (@base-unit-vh * 9);
+}
+
+@media only screen and (max-width:1024px) {
+
+  .o-container__text {
+    width: (@base-unit-vw * 15)
+  }
+
+  .o-container--full-width {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+}

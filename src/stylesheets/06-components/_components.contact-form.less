@@ -1,0 +1,19 @@
+.c-contact-form {
+  .column-flexbox();
+  width: (@base-unit-vw * 5);
+}
+
+.c-contact-form__label {
+  justify-content: center;
+  margin-top: (@base-unit-px * 2);
+}
+
+.c-contact-form__input {
+  margin-top: (@base-unit-px);
+  border-bottom: @border;
+  background-color: @light-beige;
+
+  &:focus {
+    font-family: @paragraph-font
+  }
+}
