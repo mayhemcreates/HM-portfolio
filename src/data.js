@@ -5,7 +5,7 @@ export const work = [
     description:
       "An app providing DIY tutorials as an antidote for the cost of living crisis",
     stack: "Ruby on Rails, Stimulus, Sass, Postgresql",
-    image: "../img/sheddy-advice.png",
+    image: "./img/sheddy-advice.png",
     url: "https://www.sheddyadvice.space/",
     id: 1,
   },
@@ -15,7 +15,7 @@ export const work = [
     description:
       "Hire a Meeseek for whatever you need. But don't make him live too long...Existence is pain!",
     stack: "Ruby on Rails, Stimulus, Sass, Postgresql",
-    image: "../img/meeseeker.png",
+    image: "./img/meeseeker.png",
     url: "https://meeseeker-uk.herokuapp.com/",
     id: 2,
   },
@@ -25,7 +25,7 @@ export const work = [
     description:
       "A website to promote a new green isa, for customers to invest in green infrastructure",
     stack: "HTML, CSS, Javascript",
-    image: "../img/green-isa.png",
+    image: "./img/green-isa.png",
     url: "https://mayhemcreates.github.io/green-isa/",
     id: 3,
   },
@@ -34,7 +34,7 @@ export const work = [
     alt: "this image displays a website for the pub the Shirkers Rest",
     description: "A website to promote a new pub in South East London",
     stack: "Wordpress, CSS",
-    image: "../img/shirkers-rest.png",
+    image: "./img/shirkers-rest.png",
     url: "https://theshirkersrest.co.uk/",
     id: 4,
   },
@@ -43,42 +43,42 @@ export const work = [
 export const skills = [
   {
     title: "React / React Native",
-    logo: "../img/react_icon.svg",
+    logo: "./img/react_icon.svg",
   },
   {
     title: "Ruby on Rails",
-    logo: "../img/rails-icon.svg",
+    logo: "./img/rails-icon.svg",
   },
   {
     title: "Javascript",
-    logo: "../img/javascript-logo.svg",
+    logo: "./img/javascript-logo.svg",
   },
   {
     title: "CSS3",
-    logo: "../img/css-logo.svg",
+    logo: "./img/css-logo.svg",
   },
   {
     title: "HTML5",
-    logo: "../img/html-logo.svg",
+    logo: "./img/html-logo.svg",
   },
   {
     title: "Ruby",
-    logo: "../img/ruby-logo.svg",
+    logo: "./img/ruby-logo.svg",
   },
   {
     title: "Sass",
-    logo: "../img/sass-logo.svg",
+    logo: "./img/sass-logo.svg",
   },
   {
     title: "Less",
-    logo: "../public/img/less-icon.svg"
+    logo: "./public/img/less-icon.svg"
   },
   {
     title: "Bootstrap",
-    logo: "../img/bootstrap-logo.svg",
+    logo: "./img/bootstrap-logo.svg",
   },
   {
     title: "Git",
-    logo: "../img/git-logo.svg",
+    logo: "./img/git-logo.svg",
   },
 ];
