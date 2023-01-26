@@ -1,5 +1,0 @@
-portfolio fixes
-
-spacing in column 2 to be set
-image in column 3 to be aligned to the top and full length of columns
-move cubes to behind contact or skills
