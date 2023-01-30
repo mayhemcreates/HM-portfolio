@@ -71,7 +71,7 @@ export const skills = [
   },
   {
     title: "Less",
-    logo: "./img/less-icon.svg"
+    logo: "./public/img/less-icon.svg"
   },
   {
     title: "Bootstrap",

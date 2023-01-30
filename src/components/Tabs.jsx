@@ -78,7 +78,9 @@ const handleClick = (index) => setActive(index);
               aria-labelledby={`tab-id${index}`}
               id={`panel-id-${index}`}
             >
-                <img src={work.image} />
+                <a href={work.url} >
+                  <img src={work.image} alt={work.alt} />
+                </a>
             </div>
           </div>
         ))}
@@ -93,7 +95,9 @@ const handleClick = (index) => setActive(index);
               aria-labelledby={`tab-id${index}`}
               id={`panel-id-${index}`}
             >
-                <img src={work.image} />
+                <a href={work.url} >
+                  <img src={work.image} alt={work.alt} />
+                </a>
             </div>
           </div>
         ))}
